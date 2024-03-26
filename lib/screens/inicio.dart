@@ -74,7 +74,7 @@ class _InicioState extends State<Inicio> {
                               return AlertDialog(
                                 // Retrieve the text the that user has entered by using the
                                 // TextEditingController.
-                                content: Text("Dolar ${dolares.text} Peso m${pesoMexicano.text} \n Total:${total.toStringAsFixed(2)}"),
+                                content: Text("Dolar ${dolares.text} Peso mx${pesoMexicano.text} \n Total:${total.toStringAsFixed(2) } dolares"),
                               );
                             },
                           );
